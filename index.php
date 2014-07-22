@@ -23,7 +23,7 @@ get_header(); ?>
 					get_template_part( 'content', get_post_format() );
 			endwhile; //end of the loop
 		
-		//The alternative condition: in case the methos have_posts() returns false because there are no posts to be shown.
+		//Alternative condition: in case the methos have_posts() returns false because there are no posts to be shown.
 		else :
 			//Loads the template 'none' to the current template with the WP method get_template_part()
 			get_template_part( 'content', 'none' );
