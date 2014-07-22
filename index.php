@@ -2,45 +2,36 @@
 /**
  * The main template file.
  *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- * Learn more: http://codex.wordpress.org/Template_Hierarchy
- *
  * @package Dental
  */
-
+ 
+//Gets the file header.php from the theme's directory and includes it in the structure of the page.
 get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
-		<?php if ( have_posts() ) : ?>
-
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
-
-				<?php
-					/* Include the Post-Format-specific template for the content.
-					 * If you want to override this in a child theme, then include a file
-					 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-					 */
+		
+		<?php
+		//The method have_posts() checks if there are posts in the current WordPress query.
+		if ( have_posts() )  :
+			//If this line is executed, the conditional if before resulted in true, meaning there are posts in the query.
+			/* The loop while executes repeatedly while the query has posts to be shown. */
+			while ( have_posts() ) :
+					//The method the_post() displays the post content in the page
+					the_post();
+					//Loads a specialized or specific template into the current template.
 					get_template_part( 'content', get_post_format() );
-				?>
-
-			<?php endwhile; ?>
-
-			<?php dental_paging_nav(); ?>
-
-		<?php else : ?>
-
-			<?php get_template_part( 'content', 'none' ); ?>
-
-		<?php endif; ?>
+			endwhile; //end of the loop
+		
+		//The alternative condition: in case the methos have_posts() returns false because there are no posts to be shown.
+		else :
+			//Loads the template 'none' to the current template with the WP method get_template_part()
+			get_template_part( 'content', 'none' );
+		//End of the conditional section.
+		endif; ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+<?php get_sidebar(); /* Gets the file sidebar.php from the theme's directory to include it in the structure of the page. */ ?>
+<?php get_footer(); /* Gets the file footer.php from the theme's directory to include it in the structure of the page */ ?>
