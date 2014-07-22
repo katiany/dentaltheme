@@ -670,8 +670,8 @@ object {
 /*--------------------------------------------------------------
 13.0 Initial Tests
 --------------------------------------------------------------*/
-body { /*right*/
-	background: #E0F0FF;
+body.custom-background { /*right*/
+	background-color: #E0F0FF!important;
 }
 
 body .site { /*right*/
@@ -686,16 +686,31 @@ body .site { /*right*/
     max-width: 90rem;
     /*overflow: hidden; */
 }
-.site-header { /*right*/
-    padding-top: 2rem;
-}
 
 .brand-logo { /*right*/
+	display: block;
+	width: 10%;
+	height: 100%;
 	float: left;
 }
+
 .brand-description { /*right*/
-	padding: 40px 0 40px 5px;
 	float: left;
+	padding-top: 30px;
+    width: 40%;
+    height: 100%;
+    
+}
+
+.contact-header { /*right*/
+	float: left;
+	margin-top: 20px;
+	width: 50%;
+    height: 100%;
+}
+
+.contact-header p { /*right*/
+	text-align: right;
 }
 
 .main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul { /*right*/
@@ -722,3 +737,4 @@ body .site { /*right*/
 	padding: 2em;
 	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
 }
+

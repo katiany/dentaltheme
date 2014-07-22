@@ -26,6 +26,10 @@
 		<div class="site-branding">
 			<div class="brand-logo"><h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php bloginfo('template_directory'); ?>/images/logo100px.png" ></a></h1></div>
 			<div class="brand-description"><h2 class="site-description"><?php bloginfo( 'description' ); ?></h2></div>
+			<div class="contact-header">
+			<p> bla quick contact area (phone number and e-mail)<br />
+			blablabls</p>
+			</div>
 		</div>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
