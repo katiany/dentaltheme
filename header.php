@@ -27,8 +27,8 @@
 			<div class="brand-logo"><h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php bloginfo('template_directory'); ?>/images/logo100px.png" ></a></h1></div>
 			<div class="brand-description"><h2 class="site-description"><?php bloginfo( 'description' ); ?></h2></div>
 			<div class="contact-header">
-			<p> bla quick contact area (phone number and e-mail)<br />
-			blablabls</p>
+			<p> Phone: +1 (959) 234 4523 <br />
+			E-mail: white@dentalclinic.ca</p>
 			</div>
 		</div>
 
