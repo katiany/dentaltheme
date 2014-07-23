@@ -24,8 +24,11 @@ Team Members
 ------------
 
 Katiany Zimmermann
+
 Claudinei de Oliveira
+
 Robero Oliveira
+
 William Mendes
 
 Thanks for looking!
