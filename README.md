@@ -1,7 +1,7 @@
-WP Theme created with focus on dentists
+Dental WP Theme
 ===
 
-This theme was built on the `underscores` theme. 
+This theme was built on the `underscores` theme, with focus on dentists.
 
 Files changed in order to achieve the current looking:
 
