@@ -750,6 +750,10 @@ body .site {
     margin-right: 3rem;
 }
 
+.nav-menu {
+	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+}
+
 .sub-menu {
 	background: #DFFAFF;
 	border-radius: 3px;
@@ -761,9 +765,6 @@ body .site {
 	font-family: 'Cantora One', 'Ubuntu', 'Droid Sans', 'Heveltica', sans-serif;
 }
 
-.nav-menu {
-	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
-}
 
 .site-content {
 	background: #F5FAFF;
