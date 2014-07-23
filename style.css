@@ -787,3 +787,17 @@ body .site {
 	font-family: 'Amaranth', 'Cuprum', 'Yanone Kaffeesatz', 'Calibri', sans-serif;
 	color: #419DAF;
 }
+
+table {
+	margin: 0 auto;
+	width: 200px;
+}
+
+table td {
+	text-align: center;
+}
+
+.weekday {
+	text-align: left;
+	font-weight: bold;
+}
