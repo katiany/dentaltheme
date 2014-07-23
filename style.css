@@ -374,9 +374,8 @@ a:active {
 	position: relative;
 }
 .main-navigation a {
-  color: white;
-  display: block;
-  text-decoration: none;
+	display: block;
+	text-decoration: none;
 }
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -720,7 +719,6 @@ body .site {
 	text-align: right;
 }
 
-<<<<<<< HEAD
 .main-navigation {
 	border-radius: 10px;
 	background: none repeat scroll 0 0 #49BED8;
@@ -740,19 +738,6 @@ body .site {
 	font-family: 'Ubuntu', 'Cantora One', 'Droid Sans', 'Heveltica', sans-serif;
 	margin-left: 5px;
 	padding: 5px;
-=======
-.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
-  background: none repeat scroll 0 0 #49bed8;
-  border-bottom: 1px solid #fff;
-  border-top: 1px solid #fff;
-  display: inline-block !important;
-  height: 3.5rem;
-  width: 90rem;
-}
-
-.main-navigation li { /*right*/
-    margin-right: 3rem;
->>>>>>> 6baa2e88c2db0c0a1bb13679fc719a1ef2f32e40
 }
 
 .search-field {
@@ -779,7 +764,6 @@ body .site {
 	color: #49BED8;
 	font-family: 'Cantora One', 'Ubuntu', 'Droid Sans', 'Heveltica', sans-serif;
 }
-
 
 .site-content {
 	background: #F5FAFF;
