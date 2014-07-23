@@ -11,6 +11,12 @@ Text Domain: dental
 Domain Path: /languages/
 Tags: dental, dentist, odontology
 */
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Cuprum);
+@import url(http://fonts.googleapis.com/css?family=Cantora+One);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Amaranth);
 
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
@@ -670,18 +676,18 @@ object {
 /*--------------------------------------------------------------
 13.0 Initial Tests
 --------------------------------------------------------------*/
-body.custom-background { /*right*/
+
+body.custom-background { 
 	background-color: #E0F0FF!important;
 }
 
-body .site { /*right*/
-	
+body .site {
     margin-bottom: 3rem;
     margin-top: 3rem;
     padding: 0;
 }
 
-.site { /*right*/
+.site { 
 	margin: 0 auto;
     max-width: 90rem;
     /*overflow: hidden; */
@@ -694,7 +700,7 @@ body .site { /*right*/
 	float: left;
 }
 
-.brand-description { /*right*/
+.brand-description {
 	float: left;
 	padding-top: 30px;
     width: 40%;
@@ -702,39 +708,77 @@ body .site { /*right*/
     
 }
 
-.contact-header { /*right*/
+.contact-header {
 	float: left;
 	margin-top: 20px;
 	width: 50%;
     height: 100%;
 }
 
-.contact-header p { /*right*/
+.contact-header p { 
 	text-align: right;
 }
 
-.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul { /*right*/
-    background: none repeat scroll 0 0 #e9f1ff;
+.main-navigation {
+	border-radius: 10px;
+	background: none repeat scroll 0 0 #49BED8;
     border-bottom: 1px solid #fff;
     border-top: 1px solid #fff;
-    display: inline-block !important;
-    width: 90rem;
+    margin-bottom: 5px;
 }
-.main-navigation li { /*right*/
+
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul { /*right*/  
+    width: 90rem;
+	text-align: center;
+}
+
+.menu-item a {
+	color: #DFFAFF;
+	font-weight: bold;
+	font-family: 'Ubuntu', 'Cantora One', 'Droid Sans', 'Heveltica', sans-serif;
+	margin-left: 5px;
+	padding: 5px;
+}
+
+.search-field {
+	margin-top: 5px;
+	height: 16px;
+	width: 80px;
+}
+
+.main-navigation li {
     margin-right: 3rem;
 }
 
-.sub-menu { /*right*/
-	background: #fff;
+.sub-menu {
+	background: #DFFAFF;
+	border-radius: 3px;
 }
 
-.nav-menu { /*right*/
+.sub-menu a {
+	font-weight: normal;
+	color: #49BED8;
+	font-family: 'Cantora One', 'Ubuntu', 'Droid Sans', 'Heveltica', sans-serif;
+}
+
+.nav-menu {
 	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
 }
 
-.site-content { /*right*/
+.site-content {
 	background: #F5FAFF;
 	padding: 2em;
 	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
 }
 
+.site-branding h2 {
+	font-family: 'Cantora One', 'Ubuntu', 'Droid Sans', 'Heveltica', sans-serif;
+	color: #419DAF;
+	font-size: 1.25em;
+	margin-left: 5px;
+}
+
+.contact-header p {
+	font-family: 'Amaranth', 'Cuprum', 'Yanone Kaffeesatz', 'Calibri', sans-serif;
+	color: #419DAF;
+}
