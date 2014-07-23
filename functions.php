@@ -130,9 +130,15 @@ require get_template_directory() . '/inc/customizer.php';
 require get_template_directory() . '/inc/jetpack.php';
 
 
-//adding the search box to the menu:
+//Add the function add_search_box created below to the filter action 'wp_nav_menu_items'
+//10 indicates the priority and 2 the number of arguments of the function.
 add_filter( 'wp_nav_menu_items','add_search_box', 10, 2 );
+
+//Function created to add a search box to the navigation menu (Source: WPRecipes)
 function add_search_box( $items, $args ) {
+	//Concatenate to the variable $items what returns from get_search_form(false) as a list item
+	//With the parameter false, the WP function get_search_form() returns the search form as a string
     $items .= '<li>' . get_search_form( false ) . '</li>';
+    //At the end of the function, the variable $items is returned.
     return $items;
 }
