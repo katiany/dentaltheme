@@ -28,5 +28,3 @@ get_header(); ?>
 
 <?php get_sidebar(); /* Gets the file sidebar.php from the theme's directory to include it in the structure of the page. */ ?>
 <?php get_footer(); /* Gets the file footer.php from the theme's directory to include it in the structure of the page */ ?>
-
-?>
