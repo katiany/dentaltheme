@@ -368,8 +368,9 @@ a:active {
 	position: relative;
 }
 .main-navigation a {
-	display: block;
-	text-decoration: none;
+  color: white;
+  display: block;
+  text-decoration: none;
 }
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -713,13 +714,15 @@ body .site { /*right*/
 	text-align: right;
 }
 
-.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul { /*right*/
-    background: none repeat scroll 0 0 #e9f1ff;
-    border-bottom: 1px solid #fff;
-    border-top: 1px solid #fff;
-    display: inline-block !important;
-    width: 90rem;
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+  background: none repeat scroll 0 0 #49bed8;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+  display: inline-block !important;
+  height: 3.5rem;
+  width: 90rem;
 }
+
 .main-navigation li { /*right*/
     margin-right: 3rem;
 }
