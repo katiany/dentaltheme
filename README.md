@@ -17,7 +17,7 @@ Also, some files were created:
 * page-content.php
 * content-contentonly.php
 
-This theme can be viewed on http://phoenix.sheridanc.on.ca/~ccit1930/
+This theme can be viewed on [this phoenix account](phoenix.sheridanc.on.ca/~ccit1930).
 
 
 Team Members
