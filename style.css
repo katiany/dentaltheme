@@ -737,7 +737,7 @@ body .site {
 	font-family: 'Cantora One', 'Ubuntu', 'Droid Sans', 'Heveltica', sans-serif;
 	font-size: 1.1em;
 	margin-left: 5px;
-	padding: 5px;
+	padding: 0.35em;
 }
 
 .search-field {
@@ -755,7 +755,7 @@ body .site {
 }
 
 .sub-menu {
-	background: #DFFAFF;
+	background: none repeat scroll 0 0 #DFFAFF;
 	border-radius: 3px;
 }
 
@@ -800,4 +800,72 @@ table td {
 .weekday {
 	text-align: left;
 	font-weight: bold;
+}
+
+.site-footer {
+	background-color: #49BED8;
+	border-radius: 3px;
+	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+	font-size: 0.75em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	max-width: 40rem;
+	padding: 10px;
+	text-align: center;
+}
+
+ul, ol, span, p, td {
+	color: #78A6AF;
+}
+
+ul {
+	line-height: 1.25em;
+	list-style: disc outside none;
+}
+
+ol {
+	line-height: 1.25em;
+	list-style: decimal outside none;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1.3em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+h5 {
+	font-size: 0.8em;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #17707F;
+	font-weight: bold;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a {
+	text-decoration: none;
+	color: #1D8C9F;
+	font-size: 0.8em;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
+	color: #74C2CF;
+}
+
+p {
+	font-family: 'Arial', 'Heveltica', 'Yanone Kaffeesatz', 'Calibri', sans-serif;
+	line-height: 1.2em;
+	font-size: 1em;
 }
