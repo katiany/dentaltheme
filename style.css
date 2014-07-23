@@ -727,7 +727,7 @@ body .site {
     margin-bottom: 5px;
 }
 
-.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul { /*right*/  
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
     width: 90rem;
 	text-align: center;
 }
@@ -763,6 +763,10 @@ body .site {
 	font-weight: normal;
 	color: #49BED8;
 	font-family: 'Cantora One', 'Ubuntu', 'Droid Sans', 'Heveltica', sans-serif;
+}
+
+.menu-item a:hover, .sub-menu a:hover {
+	color:#1F717F;
 }
 
 .site-content {
